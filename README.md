@@ -1,2 +1,2 @@
 # JiaYangMusic
-*佳阳音悦
+* 佳阳音悦
