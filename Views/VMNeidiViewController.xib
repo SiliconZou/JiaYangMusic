@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VMNeidiViewController" customModule="MusicTai" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="y6E-Hj-dfc" id="VUJ-lD-oCQ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="8OO-bx-IH7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="y6E-Hj-dfc">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="10" id="C5H-xo-UBo">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="sa7-GY-pg1"/>
+                        <outlet property="delegate" destination="-1" id="ccm-6S-cJn"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="y6E-Hj-dfc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4AM-16-YFE"/>
+                <constraint firstItem="y6E-Hj-dfc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Q4N-02-UCo"/>
+                <constraint firstAttribute="bottom" secondItem="y6E-Hj-dfc" secondAttribute="bottom" constant="80" id="VDP-Z0-sM5"/>
+                <constraint firstAttribute="trailing" secondItem="y6E-Hj-dfc" secondAttribute="trailing" id="xJW-Uy-GuZ"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

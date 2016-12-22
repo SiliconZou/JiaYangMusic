@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCell" id="gTV-IL-0wX" customClass="HomeCell" customModule="MusicTai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="192" height="149"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="192" height="149"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gSp-ZG-uYu">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="lpv-AY-oQy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="雪恋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htv-I0-OYv">
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="170" id="S82-W1-12T"/>
+                            <constraint firstAttribute="height" constant="15" id="l0G-Zj-iku"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="山本彩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5UF-hi-PMT">
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="RGo-oG-TRE"/>
+                            <constraint firstAttribute="width" constant="170" id="xyJ-Xr-gIz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.25490196079999999" green="0.62745098040000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="播放数量:888" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur5-Zb-YPT">
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="Sea-Hz-pZj"/>
+                            <constraint firstAttribute="width" constant="130" id="pdy-eW-4Kb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Ur5-Zb-YPT" firstAttribute="top" secondItem="5UF-hi-PMT" secondAttribute="bottom" constant="5" id="8LL-8a-SNs"/>
+                <constraint firstItem="5UF-hi-PMT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="EwG-kW-pfK"/>
+                <constraint firstItem="Ur5-Zb-YPT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="L2O-Gp-0ZU"/>
+                <constraint firstItem="gSp-ZG-uYu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="Zfb-Ic-J8t"/>
+                <constraint firstItem="htv-I0-OYv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="di5-Nt-c5x"/>
+                <constraint firstItem="gSp-ZG-uYu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="dno-zn-bRe"/>
+                <constraint firstItem="5UF-hi-PMT" firstAttribute="top" secondItem="htv-I0-OYv" secondAttribute="bottom" constant="5" id="mNE-hj-vLW"/>
+                <constraint firstItem="htv-I0-OYv" firstAttribute="top" secondItem="gSp-ZG-uYu" secondAttribute="bottom" constant="5" id="oOA-fA-sxE"/>
+                <constraint firstAttribute="trailing" secondItem="gSp-ZG-uYu" secondAttribute="trailing" constant="5" id="sFR-10-Wjt"/>
+            </constraints>
+            <size key="customSize" width="192" height="149"/>
+            <connections>
+                <outlet property="artistLabel" destination="5UF-hi-PMT" id="Oii-nF-iw6"/>
+                <outlet property="picImage" destination="gSp-ZG-uYu" id="git-N2-zge"/>
+                <outlet property="playcountLabel" destination="Ur5-Zb-YPT" id="9OG-rr-sDE"/>
+                <outlet property="titleLabel" destination="htv-I0-OYv" id="nAc-00-cg7"/>
+            </connections>
+            <point key="canvasLocation" x="-54" y="25.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

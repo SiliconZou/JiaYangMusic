@@ -1,0 +1,18 @@
+
+/* Class = "UITabBarItem"; title = "订阅"; ObjectID = "BRc-7N-sL4"; */
+"BRc-7N-sL4.title" = "订阅";
+
+/* Class = "UITabBarItem"; title = "V榜"; ObjectID = "JeE-Dl-erA"; */
+"JeE-Dl-erA.title" = "V榜";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "Opx-XP-SRO"; */
+"Opx-XP-SRO.title" = "首页";
+
+/* Class = "UILabel"; text = "登陆账号，享受云同步"; ObjectID = "aLb-hp-eBV"; */
+"aLb-hp-eBV.text" = "登陆账号，享受云同步";
+
+/* Class = "UITabBarItem"; title = "导航"; ObjectID = "d9e-6Z-Np3"; */
+"d9e-6Z-Np3.title" = "导航";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "ipU-Nl-mjl"; */
+"ipU-Nl-mjl.title" = "我的";

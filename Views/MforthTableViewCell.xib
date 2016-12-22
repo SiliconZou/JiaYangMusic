@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mforth" rowHeight="64" id="KGk-i7-Jjw" customClass="MforthTableViewCell" customModule="MusicTai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="352" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的悦单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TH5-eR-GbX">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="TOF-bH-qVg"/>
+                            <constraint firstAttribute="height" constant="20" id="xil-UI-7Ot"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未登录，建议您登录后查看自建的悦单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPj-XR-Les">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="NzV-vC-fU8"/>
+                            <constraint firstAttribute="width" constant="220" id="keF-X3-4Fd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbk-7Q-jMZ">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="1aZ-rH-Y8H"/>
+                            <constraint firstAttribute="width" constant="65" id="V0h-XT-oSs"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="mine_listadd_a_p~iphone"/>
+                        <connections>
+                            <action selector="createClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="otU-MH-r0R"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WPj-XR-Les" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="0TL-Fa-oTd"/>
+                    <constraint firstItem="TH5-eR-GbX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="BTF-p7-waM"/>
+                    <constraint firstItem="Qbk-7Q-jMZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="e7k-CJ-fG0"/>
+                    <constraint firstItem="WPj-XR-Les" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="28" id="f56-o2-bKh"/>
+                    <constraint firstAttribute="trailing" secondItem="Qbk-7Q-jMZ" secondAttribute="trailing" constant="20" id="vIJ-lj-9Cm"/>
+                    <constraint firstItem="TH5-eR-GbX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="yIN-7w-5Ak"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLabel" destination="WPj-XR-Les" id="7GE-cL-iBk"/>
+            </connections>
+            <point key="canvasLocation" x="50" y="76"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mine_listadd_a_p~iphone" width="24" height="24"/>
+    </resources>
+</document>

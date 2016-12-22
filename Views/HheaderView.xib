@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HheaderView" id="VVp-Te-wdD" customClass="HheaderView" customModule="MusicTai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MV首播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="126-kJ-uun">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="Arr-AJ-rgU"/>
+                        <constraint firstAttribute="width" constant="110" id="IkW-EX-zSe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MV PREMIERE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIK-FR-0p1">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="o6t-gT-OJz"/>
+                        <constraint firstAttribute="width" constant="150" id="ydo-In-Ljl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="126-kJ-uun" firstAttribute="leading" secondItem="VVp-Te-wdD" secondAttribute="leading" constant="5" id="81p-O7-P8P"/>
+                <constraint firstItem="oIK-FR-0p1" firstAttribute="top" secondItem="126-kJ-uun" secondAttribute="bottom" constant="1" id="8HF-fd-JDM"/>
+                <constraint firstItem="126-kJ-uun" firstAttribute="top" secondItem="VVp-Te-wdD" secondAttribute="top" constant="4" id="Mn3-yQ-9Tm"/>
+                <constraint firstItem="oIK-FR-0p1" firstAttribute="leading" secondItem="VVp-Te-wdD" secondAttribute="leading" constant="5" id="QgB-a4-nLX"/>
+            </constraints>
+            <connections>
+                <outlet property="entitleLabel" destination="oIK-FR-0p1" id="EEr-I9-FhH"/>
+                <outlet property="titleLabel" destination="126-kJ-uun" id="B1l-e6-zKk"/>
+            </connections>
+            <point key="canvasLocation" x="38.5" y="167"/>
+        </collectionReusableView>
+    </objects>
+</document>

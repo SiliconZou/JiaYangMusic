@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FTCHomeCell" id="hAZ-mI-2xh" customClass="FTCHomeCell" customModule="MusicTai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="105"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="130" height="105"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sfh-hf-zEC">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="XG0-uV-Zm5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="韩剧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-K2-wQr">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="efi-pS-LfM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王菲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RE6-LD-9yJ">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="77p-la-DEq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.1887846057" green="0.98623636739999998" blue="0.28374056209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="播放数量:4213" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1Q-mD-cfv">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="77d-Nm-xM3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="RE6-LD-9yJ" firstAttribute="leading" secondItem="hAZ-mI-2xh" secondAttribute="leading" constant="5" id="JUT-2i-b56"/>
+                <constraint firstItem="kWf-K2-wQr" firstAttribute="top" secondItem="Sfh-hf-zEC" secondAttribute="bottom" id="JZv-Rn-APR"/>
+                <constraint firstItem="l1Q-mD-cfv" firstAttribute="top" secondItem="RE6-LD-9yJ" secondAttribute="bottom" constant="2" id="Leq-Gc-e5k"/>
+                <constraint firstItem="RE6-LD-9yJ" firstAttribute="top" secondItem="kWf-K2-wQr" secondAttribute="bottom" constant="1" id="LxK-Jo-SLm"/>
+                <constraint firstAttribute="trailing" secondItem="kWf-K2-wQr" secondAttribute="trailing" constant="3" id="N3Q-dh-ZIb"/>
+                <constraint firstAttribute="trailing" secondItem="Sfh-hf-zEC" secondAttribute="trailing" constant="3" id="Rwi-SS-5Ey"/>
+                <constraint firstItem="l1Q-mD-cfv" firstAttribute="leading" secondItem="hAZ-mI-2xh" secondAttribute="leading" constant="5" id="SX1-ed-EkB"/>
+                <constraint firstAttribute="trailing" secondItem="RE6-LD-9yJ" secondAttribute="trailing" constant="10" id="XeI-0g-d0b"/>
+                <constraint firstItem="Sfh-hf-zEC" firstAttribute="top" secondItem="hAZ-mI-2xh" secondAttribute="top" constant="3" id="lnD-KT-4iJ"/>
+                <constraint firstItem="kWf-K2-wQr" firstAttribute="leading" secondItem="hAZ-mI-2xh" secondAttribute="leading" constant="5" id="prK-RF-3Vq"/>
+                <constraint firstItem="Sfh-hf-zEC" firstAttribute="leading" secondItem="hAZ-mI-2xh" secondAttribute="leading" constant="3" id="qa2-3C-Liy"/>
+                <constraint firstAttribute="bottom" secondItem="l1Q-mD-cfv" secondAttribute="bottom" constant="2" id="tOB-xD-pCy"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLbel" destination="RE6-LD-9yJ" id="uzp-MS-Fiy"/>
+                <outlet property="picImg" destination="Sfh-hf-zEC" id="imW-qi-vO3"/>
+                <outlet property="titleLabel" destination="kWf-K2-wQr" id="7Qv-uM-rUP"/>
+                <outlet property="vedioCountLabel" destination="l1Q-mD-cfv" id="Yse-IF-wFA"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

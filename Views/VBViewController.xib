@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11201"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VBViewController" customModule="MusicTai" customModuleProvider="target">
+            <connections>
+                <outlet property="Chinaview" destination="Y6u-td-iZS" id="Bqu-DN-i8G"/>
+                <outlet property="MVview" destination="PrQ-tg-1Xu" id="Maf-Aj-9NR"/>
+                <outlet property="Zhuanjiview" destination="0ek-2d-Hde" id="yWX-aC-Fki"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Q0A-Rl-UFf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y6u-td-iZS">
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ek-2d-Hde">
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PrQ-tg-1Xu">
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.13304224610328674" green="0.62773269414901733" blue="0.94247323274612427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Y6u-td-iZS" firstAttribute="top" secondItem="PrQ-tg-1Xu" secondAttribute="top" id="2KS-G5-kfv"/>
+                <constraint firstItem="0ek-2d-Hde" firstAttribute="trailing" secondItem="PrQ-tg-1Xu" secondAttribute="trailing" id="ALb-sJ-Mz2"/>
+                <constraint firstItem="Y6u-td-iZS" firstAttribute="trailing" secondItem="PrQ-tg-1Xu" secondAttribute="trailing" id="GOl-J0-5Mv"/>
+                <constraint firstAttribute="trailing" secondItem="PrQ-tg-1Xu" secondAttribute="trailing" id="Msq-gj-WZ6"/>
+                <constraint firstItem="Y6u-td-iZS" firstAttribute="bottom" secondItem="PrQ-tg-1Xu" secondAttribute="bottom" id="O9i-uw-6iz"/>
+                <constraint firstItem="PrQ-tg-1Xu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="ZS1-3h-0UF"/>
+                <constraint firstItem="Y6u-td-iZS" firstAttribute="leading" secondItem="PrQ-tg-1Xu" secondAttribute="leading" id="bFZ-rh-UaH"/>
+                <constraint firstItem="0ek-2d-Hde" firstAttribute="top" secondItem="PrQ-tg-1Xu" secondAttribute="top" id="eQ2-tC-YCV"/>
+                <constraint firstItem="PrQ-tg-1Xu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gOr-Wt-nT5"/>
+                <constraint firstItem="0ek-2d-Hde" firstAttribute="leading" secondItem="PrQ-tg-1Xu" secondAttribute="leading" id="hK8-sT-ZO7"/>
+                <constraint firstItem="0ek-2d-Hde" firstAttribute="bottom" secondItem="PrQ-tg-1Xu" secondAttribute="bottom" id="slg-RZ-A6u"/>
+                <constraint firstAttribute="bottom" secondItem="PrQ-tg-1Xu" secondAttribute="bottom" id="yvz-Ce-Qcp"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="58.5"/>
+        </view>
+    </objects>
+</document>
