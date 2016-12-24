@@ -73,15 +73,15 @@ class NavViewController: UIViewController,UITableViewDelegate,UITableViewDataSou
                     let tiStr = title["title"] as? String
                     self.Pro2DataArr.append(tiStr!)
                 }
-                let fun3 = funArr[2]
-                let urlDic = fun3["extend"] as! NSDictionary
-                let url = urlDic["url"] as? String
-                self.UrlStrArr.append(url!)
-                let pro3 = fun3["products"] as! [NSDictionary]
-                for title in pro3 {
-                    let tiStr = title["title"] as? String
-                    self.Pro3DataArr.append(tiStr!)
-                }
+//                let fun3 = funArr[2]
+//                let urlDic = fun3["extend"] as! NSDictionary
+//                let url = urlDic["url"] as? String
+//                self.UrlStrArr.append(url!)
+//                let pro3 = fun3["products"] as! [NSDictionary]
+//                for title in pro3 {
+//                    let tiStr = title["title"] as? String
+//                    self.Pro3DataArr.append(tiStr!)
+//                }
             } else {
                 print(error?.localizedFailureReason as Any)
             }
@@ -206,11 +206,11 @@ class NavViewController: UIViewController,UITableViewDelegate,UITableViewDataSou
             cell.fanPaLabel.text = Pro2DataArr[0]
         }
         
-        if self.Pro3DataArr.count > 1 {
-            cell.zongLabel.text = "1.\(Pro3DataArr[0])\n2.\(Pro3DataArr[1])"
-        } else {
-            cell.zongLabel.text = Pro3DataArr[0]
-        }
+//        if self.Pro3DataArr.count > 1 {
+//            cell.zongLabel.text = "1.\(Pro3DataArr[0])\n2.\(Pro3DataArr[1])"
+//        } else {
+//            cell.zongLabel.text = Pro3DataArr[0]
+//        }
         cell.shangChengBtn.addTarget(self, action: #selector(self.ShangBtnClick2), for: .touchUpInside)
         cell.zongBtn.addTarget(self, action: #selector(self.ShangBtnClick), for: .touchUpInside)
         return cell
