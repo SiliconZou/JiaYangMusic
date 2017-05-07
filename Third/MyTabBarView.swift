@@ -240,8 +240,8 @@ class MyTabBarView: UIView {
                         self.tabView.contentOffset=CGPoint.init(x: button.frame.minX, y: 0)
                     })
                     // 更新left
-                    currentTopLeft=button.frame.origin.x
-                    currentTopRight=currentTopLeft+self.frame.width
+                    currentTopLeft = button.frame.origin.x
+                    currentTopRight = currentTopLeft+self.frame.width
                 }
             }
             if button.frame.minX<(currentTopRight-self.frame.width){      // 左边界在屏幕外（往左）
