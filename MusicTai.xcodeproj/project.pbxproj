@@ -226,7 +226,6 @@
 		00F39C8D1DC0A32C007FAEDE /* FCHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F39C8B1DC0A32C007FAEDE /* FCHomeCell.swift */; };
 		00F39C8E1DC0A32C007FAEDE /* FCHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F39C8C1DC0A32C007FAEDE /* FCHomeCell.xib */; };
 		00F39C901DC0A8F8007FAEDE /* FQuanbuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F39C8F1DC0A8F8007FAEDE /* FQuanbuViewController.xib */; };
-		5C6AC7461EBEF1CA0027BA7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AC7451EBEF1CA0027BA7A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -492,7 +491,6 @@
 		00F39C8B1DC0A32C007FAEDE /* FCHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCHomeCell.swift; sourceTree = "<group>"; };
 		00F39C8C1DC0A32C007FAEDE /* FCHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCHomeCell.xib; sourceTree = "<group>"; };
 		00F39C8F1DC0A8F8007FAEDE /* FQuanbuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FQuanbuViewController.xib; sourceTree = "<group>"; };
-		5C6AC7451EBEF1CA0027BA7A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -539,7 +537,6 @@
 				00A9A7D61DB74BEE008C6C99 /* VedioPlayController.swift */,
 				00A9A7D81DB74F6F008C6C99 /* ShangChengViewController.swift */,
 				00470EEA1DC4C13500E9E900 /* HistoryViewController.swift */,
-				5C6AC7451EBEF1CA0027BA7A /* ViewController.swift */,
 			);
 			name = others;
 			sourceTree = "<group>";
@@ -1302,7 +1299,6 @@
 				00F39BC41DBDB259007FAEDE /* UIScrollView+MJExtension.m in Sources */,
 				0026A7981DBA4C07009057FC /* NRYingshiViewController.swift in Sources */,
 				001F87871DB8CA6D00A767EA /* HTOumeiViewController.swift in Sources */,
-				5C6AC7461EBEF1CA0027BA7A /* ViewController.swift in Sources */,
 				00A9A7711DB4F105008C6C99 /* SDImageCache.m in Sources */,
 				00A9A7741DB4F105008C6C99 /* SDWebImageDownloader.m in Sources */,
 				00F39C401DBF0B0A007FAEDE /* VMOumeiViewController.swift in Sources */,
